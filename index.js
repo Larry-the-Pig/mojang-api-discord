@@ -52,8 +52,8 @@ client.on('messageCreate', (msg) => {
         client.commands.get('uuid').execute(args, msg, Discord, api, process.env.COLOR);
     }
 
-    if (command === 'namehistory') {
-        client.commands.get('namehistory').execute(args, msg, Discord, api, process.env.COLOR);
+    if (command === 'history') {
+        client.commands.get('history').execute(args, msg, Discord, api, process.env.COLOR);
     }
 });
 

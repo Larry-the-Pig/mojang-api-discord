@@ -1,5 +1,5 @@
 module.exports = {
-    name: "namehistory",
+    name: "history",
 
     execute(args, msg, Discord, api, color) {
         if (!args || args[0].length <= 0) {
